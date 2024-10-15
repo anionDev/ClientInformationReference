@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>WebAPIContainerCodeUnit reference </title>
+    <title>ClientInformation-reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="WebAPIContainerCodeUnit reference ">
+    <meta name="title" content="ClientInformation-reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -60,9 +60,26 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="webapicontainercodeunit-reference">WebAPIContainerCodeUnit reference</h1>
+<h1 id="clientinformation-reference">ClientInformation-reference</h1>
 
-<p>TODO</p>
+<h2 id="overview">Overview</h2>
+<p><code>ClientInformation</code> is a containerized service which basically runs <a href="https://github.com/anionDev/ClientInformation/tree/main/ClientInformationBackend">ClientInformationBackend</a> in it.</p>
+<p>This codeunit is implemented as usual <code>Dockerfile</code>.</p>
+<h2 id="articles">Articles</h2>
+<ul>
+<li><a href="Articles/APIUsage.html">API-Usage</a></li>
+</ul>
+<h2 id="examples">Examples</h2>
+<p>To see an example of how to self-host <code>ClientInformation</code> see the <a href="Examples/MinimalDockerComposeFile/docker-compose.yml">example-docker-compose-file</a>.</p>
+<p>You can also running it on your own locally by running:</p>
+<pre><code class="lang-sh">git clone https://github.com/anionDev/ClientInformation.git
+cd ClientInformation
+scbuildcodeunits
+cd ClientInformation/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile
+python RunExample.py
+</code></pre>
+<h2 id="hints">Hints</h2>
+<p>See also the <a href="Hints.html">hints</a> (mainly for developer).</p>
 </article>
           </div>
           

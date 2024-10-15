@@ -5,17 +5,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Example </title>
+    <title>API-Usage </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Example ">
+    <meta name="title" content="API-Usage ">
     <meta name="generator" content="docfx 2.59.4.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="">
     
     
     
@@ -57,19 +57,16 @@
         </div>
       </header>
       <div role="main" class="container body-content hide-when-search">
-        
-        <div class="sidenav hide-when-search">
-          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
-          <div class="sidetoggle collapse" id="sidetoggle">
-            <div id="sidetoc"></div>
-          </div>
-        </div>
-        <div class="article row grid-right">
+        <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="example">Example</h1>
+<h1 id="api-usage">API-Usage</h1>
 
-<p>TODO</p>
+<p><code>ClientInformation</code> provides a REST-API.
+You can query information about a specific ip-address by using the route <code>/API/v1/ClientInformationBackendController/Information/&lt;IP-address&gt;</code>.</p>
+<p>Example: <code>curl -s https://clientinformation.anion327.de/API/v1/ClientInformationBackendController/Information/8.8.8.8</code></p>
+<p>You can also omit the IP-address and then the ip of the currently requesting client will be used.
+Since this is probably the default-usecase the name of the project is <code>ClientInformation</code>.</p>
 </article>
           </div>
           

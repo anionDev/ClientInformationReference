@@ -5,17 +5,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>API Documentation </title>
+    <title>ClientInformation-reference </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="API Documentation ">
+    <meta name="title" content="ClientInformation-reference ">
     <meta name="generator" content="docfx 2.59.4.0">
     
-    <link rel="shortcut icon" href="../favicon.ico">
-    <link rel="stylesheet" href="../styles/docfx.vendor.css">
-    <link rel="stylesheet" href="../styles/docfx.css">
-    <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="../toc.html">
-    <meta property="docfx:tocrel" content="../toc.html">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="">
+    <meta property="docfx:tocrel" content="">
     
     
     
@@ -34,8 +34,8 @@
                 <span class="icon-bar"></span>
               </button>
               
-              <a class="navbar-brand" href="../index.html">
-                <img id="logo" class="svg" src="../logo.svg" alt="">
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
               </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar">
@@ -60,9 +60,26 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="api-documentation">API Documentation</h1>
+<h1 id="clientinformation-reference">ClientInformation-reference</h1>
 
-<p>This is the class-reference.</p>
+<h2 id="overview">Overview</h2>
+<p><code>ClientInformation</code> is a containerized service which basically runs <a href="https://github.com/anionDev/ClientInformation/tree/main/ClientInformationBackend">ClientInformationBackend</a> in it.</p>
+<p>This codeunit is implemented as usual <code>Dockerfile</code>.</p>
+<h2 id="articles">Articles</h2>
+<ul>
+<li><a href="Articles/APIUsage.html">API-Usage</a></li>
+</ul>
+<h2 id="examples">Examples</h2>
+<p>To see an example of how to self-host <code>ClientInformation</code> see the <a href="Examples/MinimalDockerComposeFile/docker-compose.yml">example-docker-compose-file</a>.</p>
+<p>You can also running it on your own locally by running:</p>
+<pre><code class="lang-sh">git clone https://github.com/anionDev/ClientInformation.git
+cd ClientInformation
+scbuildcodeunits
+cd ClientInformation/Other/Reference/ReferenceContent/Examples/MinimalDockerComposeFile
+python RunExample.py
+</code></pre>
+<h2 id="hints">Hints</h2>
+<p>See also the <a href="Hints.html">hints</a> (mainly for developer).</p>
 </article>
           </div>
           
@@ -95,8 +112,8 @@
       </footer>
     </div>
     
-    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
-    <script type="text/javascript" src="../styles/docfx.js"></script>
-    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
   </body>
 </html>
